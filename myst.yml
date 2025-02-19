@@ -1,0 +1,27 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "katie kim"
+  description: "gebrdsegasbgdfv"
+  keywords: []
+  authors: []
+  # github: https://github.com/ktk-sdk
+  # bibliography: []
+  toc:
+  - file: index.md
+  - title: "home"
+
+  - file: test.md
+  - title: "test"
+
+site:
+  title: "ktk-sdk"
+  logo: "_static/chicken.jpg"
+  # favicon: "_static/favicon.jpg"
+  template: book-theme
+  nav:
+    - title: "Home"
+      file: index.md
+
+    - title: "test"
+      file: test.md
